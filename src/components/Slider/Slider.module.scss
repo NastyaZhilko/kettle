@@ -1,0 +1,100 @@
+@import 'src/styles/constants.module';
+
+$rail-height: 4px;
+
+.root {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: $rail-height;
+  padding: 11px 0;
+
+  cursor: pointer;
+  appearance: none;
+
+  opacity: 0;
+}
+
+.input::-webkit-slider-thumb {
+  width: 14px;
+  height: 14px;
+
+  appearance: none;
+
+  opacity: 0;
+}
+
+.input::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+
+  opacity: 0;
+}
+
+.marks {
+  position: absolute;
+  top: 7px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  pointer-events: none;
+}
+
+.markItem {
+  position: relative;
+}
+
+.switch {
+  width: 14px;
+  height: 14px;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+  background-color: $white;
+
+  &.activeMark {
+    width: 14px;
+    height: 14px;
+
+    border: 2px solid $blue-1;
+
+    box-shadow: 0 0 0 6px $blue-1;
+
+  }
+
+  &.beforeActive {
+    background-color: $blue-1;
+  }
+}
+
+.label {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  color: $grey-3;
+}
+
+.line {
+  width: 30%;
+  height: $rail-height;
+
+  background: $white;
+
+  &:last-child {
+    display: none;
+  }
+
+  &.beforeActive {
+    background: $blue-1;
+  }
+}

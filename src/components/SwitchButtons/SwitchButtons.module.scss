@@ -1,0 +1,27 @@
+@import 'src/styles/constants.module';
+
+.root {
+  width: fit-content;
+  padding: 4px;
+
+  border: 1px solid $grey-12;
+  border-radius: 8px;
+}
+
+.button {
+  cursor: pointer;
+
+  border: none;
+  background: none;
+
+  font-family: $app-font-family;
+  padding: 6px 4px 5px;
+
+  letter-spacing: 0.8px;
+
+  border-bottom: 3px solid transparent;
+
+  &.active {
+    border-color: $blue-1;
+  }
+}

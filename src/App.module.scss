@@ -1,0 +1,11 @@
+@import 'src/styles/constants.module';
+
+.waterVolume{
+  background-color: $blue-4;
+  border-radius: 30px;
+  padding: 30px 30px 60px;
+  width: 500px;
+}
+.waterVolumeInformation{
+  margin-bottom: 25px;
+}
