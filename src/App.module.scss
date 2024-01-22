@@ -1,11 +1,38 @@
 @import 'src/styles/constants.module';
 
-.waterVolume{
-  background-color: $blue-4;
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waterVolume {
+  background-color: $blue-2;
   border-radius: 30px;
   padding: 30px 30px 60px;
   width: 500px;
 }
-.waterVolumeInformation{
+
+.waterVolumeInformation {
   margin-bottom: 25px;
+}
+
+.blockImage {
+  width: 200px;
+  height: 200px;
+}
+
+.blockInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-shadow:4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+  padding: 30px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
 }

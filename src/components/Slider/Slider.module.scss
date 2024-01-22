@@ -4,6 +4,7 @@ $rail-height: 4px;
 
 .root {
   position: relative;
+  background-color: $blue-2;
 }
 
 .input {
@@ -81,7 +82,7 @@ $rail-height: 4px;
 
   transform: translate(-50%, -50%);
 
-  color: $grey-3;
+  color: $grey-2;
 }
 
 .line {
