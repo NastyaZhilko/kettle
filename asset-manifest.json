@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NastyaZhilko/kettle/static/css/main.02295846.css",
+    "main.js": "/NastyaZhilko/kettle/static/js/main.01dc9652.js",
+    "static/js/787.d4aba7ab.chunk.js": "/NastyaZhilko/kettle/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/NastyaZhilko/kettle/index.html",
+    "main.02295846.css.map": "/NastyaZhilko/kettle/static/css/main.02295846.css.map",
+    "main.01dc9652.js.map": "/NastyaZhilko/kettle/static/js/main.01dc9652.js.map",
+    "787.d4aba7ab.chunk.js.map": "/NastyaZhilko/kettle/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02295846.css",
+    "static/js/main.01dc9652.js"
+  ]
+}
